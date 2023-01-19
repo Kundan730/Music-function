@@ -16,6 +16,35 @@ footer {
   font-family: sans-serif;
 }
 
+.w {
+  background-image: url(images/tom1.png);
+  background-size: 100%;
+}
+.a {
+  background-image: url(images/tom2.png);
+  background-size: 100%;
+}
+.s {
+  background-image: url(images/tom3.png);
+  background-size: 100%;
+}
+.d {
+  background-image: url(images/tom4.png);
+  background-size: 100%;
+}
+.j{
+  background-image: url(images/crash.png);
+  background-size: 100%;
+}
+.k {
+  background-image: url(images/kick.png);
+  background-size: 100%;
+}
+.l {
+  background-image: url(images/snare.png);
+  background-size: 100%;
+}
+
 .set {
   margin: 10% auto;
 }

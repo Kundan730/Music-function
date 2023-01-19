@@ -1,5 +1,16 @@
-function handleClick() {
-  alert('I got clicked')
+let drumLength = document.querySelectorAll('.drum').length;
+
+// document.querySelector('.set .l').addEventListener('click', function () {
+//   alert('I got clicked')
+// });
+
+for(let i = 0; i < drumLength; i++) {
+  document.querySelectorAll('.drum')[i].addEventListener('click', function () {
+
+    this.style.color = 'yellow';
+    
+  });
 }
 
-document.querySelector('button').addEventListener('click', handleClick);
+// let audio = new Audio('sounds/tom-4.mp3')
+// audio.play();
