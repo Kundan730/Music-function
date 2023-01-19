@@ -49,6 +49,11 @@ footer {
   margin: 10% auto;
 }
 
+.pressed {
+  box-shadow: 0 7px 7px 0 blue;
+  opacity: 0.7;
+}
+
 .drum {
   outline: none;
   border: 10px solid #404B69;
